@@ -41,35 +41,38 @@ Ensure you have the required dependencies installed before running the tool.
 Install the following tools if they are not already available on your system:
 ```bash
 sudo apt update && sudo apt install -y whois nmap dnsenum sqlmap assetfinder curl
-pip install colorama
+
 ```
 
-Additionally, install `FinalRecon`:
+Additionally, install `tools`:
 ```bash
-git clone https://github.com/thewhiteh4t/FinalRecon.git
-cd FinalRecon
-pip install -r requirements.txt
-python3 setup.py install
+sudo apt update -y
+sudo apt install sublist3r
+sudo apt install -y whois nmap dnsenum sqlmap assetfinder curl git python3-pip
+
+# pip install colorama
+
+sudo apt install finalrecon -y
+sudo apt install whatweb -y
+sudo apt install recon-ng -y
+sudo apt install amass -y
+sudo apt install assetfinder -y
 ```
 
 ## Usage
 Run the script with:
 ```bash
-python3 scanner.py
+./allrecon6.py
 ```
-Or specify a target directly:
-```bash
-python3 scanner.py example.com
-```
+
 
 ## Output
 The scan results are saved in the `ScanResults` directory, with a separate folder created for each scan target, timestamped for reference.
 
 ## Screenshots
-(Include relevant screenshots of the tool in action, if possible)
 
-## License
-This project is licensed under the MIT License.
+
+
 
 ## Disclaimer
 This tool is intended for educational and ethical penetration testing purposes only. Unauthorized use against targets without permission is strictly prohibited.
