@@ -1,5 +1,10 @@
 # all-in-one-information-gathering-tool
 
+First swtch to super user 
+
+```bash
+$ sudo su ( swith to super user )
+```
 give permission to files 
 
 ```bash
