@@ -78,7 +78,7 @@ Run the script with:
 The scan results are saved in the `ScanResults` directory, with a separate folder created for each scan target, timestamped for reference.
 
 ## Screenshots
-![banner](https://github.com/user-attachments/assets/96a4aa33-d4ba-439b-a32c-97310a92f79c)
+![image](https://github.com/user-attachments/assets/c9a115d8-aada-4437-8c93-3c18f5bd56fa)
 
 
 
